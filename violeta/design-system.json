@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "assetGroups": {},
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-11-12T20:16:53Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [],
+  "lastChange": {
+    "at": "2026-11-12T20:16:53Z",
+    "by": "Daniel",
+    "note": "Sistema criado a partir da paleta do mockup Venus",
+    "via": "Claude (chat)"
+  },
+  "layout": "files",
+  "libraries": [],
+  "namespace": "Violeta",
+  "sections": {},
+  "title": "Violeta — linguagem de design"
+}

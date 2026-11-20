@@ -1,0 +1,30 @@
+<!-- @dsCard group="Layout" height=360 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Card</title></head>
+<body>
+<div class="vn-stage">
+<section class="vn-card" style="width:600px;box-sizing:border-box">
+  <div style="display:flex;align-items:center;gap:var(--space-5)">
+    <h2 class="vn-card-title">Saldo</h2><span class="vn-status">No ritmo</span>
+    <span style="margin-left:auto;color:var(--ink-muted);font-weight:500">Mensal ▾</span>
+  </div>
+  <div style="display:flex;gap:var(--space-5);margin-top:var(--space-5)">
+    <div style="flex:1;background:var(--surface-raised);box-shadow:var(--shadow-float);border-radius:var(--radius-md);padding:var(--space-4) var(--space-5)">
+      <p class="vn-item-meta" style="margin:0">Poupança</p>
+      <div style="display:flex;align-items:center;gap:var(--space-3)"><span class="vn-stat-value">43,50%</span><span class="vn-badge vn-badge-up">+2,45%</span></div>
+    </div>
+    <div style="flex:1;background:var(--surface-raised);box-shadow:var(--shadow-float);border-radius:var(--radius-md);padding:var(--space-4) var(--space-5)">
+      <p class="vn-item-meta" style="margin:0">Saldo</p>
+      <div style="display:flex;align-items:center;gap:var(--space-3)"><span class="vn-stat-value">R$ 52.422</span><span class="vn-badge vn-badge-down">−4,75%</span></div>
+    </div>
+  </div>
+  <svg viewBox="0 0 540 110" width="100%" height="110" aria-hidden="true" style="display:block;margin-top:var(--space-4)">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--violet-100)"/><stop offset="1" stop-color="var(--surface)"/></linearGradient></defs>
+    <path d="M0 90 C40 90 50 100 70 70 S 90 95 120 95 S 150 60 165 75 S 190 10 210 15 S 225 85 260 85 S 290 105 310 90 S 330 25 345 30 S 360 65 380 60 S 395 5 420 25 S 450 60 480 55 S 500 45 540 45 V110 H0Z" fill="url(#g)"/>
+    <path d="M0 90 C40 90 50 100 70 70 S 90 95 120 95 S 150 60 165 75 S 190 10 210 15 S 225 85 260 85 S 290 105 310 90 S 330 25 345 30 S 360 65 380 60 S 395 5 420 25 S 450 60 480 55 S 500 45 540 45" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round"/>
+  </svg>
+</section>
+</div>
+</body>
+</html>
