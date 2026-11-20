@@ -1,0 +1,64 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Tecla</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .s1 { fill:var(--stripe-start); } .s2 { fill:var(--stripe-end); } .k { fill:var(--ink-faint); rx:var(--radius-md); } .w { fill:var(--primary); rx:var(--radius-md); }
+  .words { position:absolute; left:var(--space-7); bottom:var(--space-7); max-width:440px; }
+  .name { margin:0; font-family:var(--font-sans); font-size:120px; line-height:.92; font-weight:600; letter-spacing:-0.02em; color:var(--ink); }
+  .tag { margin:var(--space-4) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      stripe-start: duas listras diagonais de 112 de largura · stripe-end: uma terceira, sangrando à direita — de cima a baixo
+  arrangement três listras inclinadas no mesmo ângulo, em passo de 144, como a abertura de página — "listras vermelhas, uma vez"
+  pattern     ladrilhos (linha "geometric, modular, dense UI"): 24 teclas de 40px em ink-faint, uma barra de espaço quádrupla e uma tecla em primary — "atalhos à vista" e o botão branco
+  scales      teclas de 40 com calha space-3 (8); cantos radius-md (8); listras de 112 (múltiplo de space-5)
+-->
+<polygon class="s1" points="200,-24 312,-24 192,312 80,312"/>
+<polygon class="s1" points="344,-24 456,-24 336,312 224,312"/>
+<polygon class="s2" points="488,-24 600,-24 480,312 368,312"/>
+<rect class="k" x="24" y="136" width="40" height="40" rx="8"/>
+<rect class="k" x="72" y="136" width="40" height="40" rx="8"/>
+<rect class="k" x="120" y="136" width="40" height="40" rx="8"/>
+<rect class="k" x="168" y="136" width="40" height="40" rx="8"/>
+<rect class="k" x="216" y="136" width="40" height="40" rx="8"/>
+<rect class="k" x="264" y="136" width="40" height="40" rx="8"/>
+<rect class="k" x="312" y="136" width="40" height="40" rx="8"/>
+<rect class="k" x="360" y="136" width="40" height="40" rx="8"/>
+<rect class="k" x="408" y="136" width="40" height="40" rx="8"/>
+<rect class="k" x="24" y="184" width="40" height="40" rx="8"/>
+<rect class="k" x="72" y="184" width="40" height="40" rx="8"/>
+<rect class="k" x="120" y="184" width="40" height="40" rx="8"/>
+<rect class="k" x="168" y="184" width="40" height="40" rx="8"/>
+<rect class="k" x="216" y="184" width="40" height="40" rx="8"/>
+<rect class="k" x="264" y="184" width="40" height="40" rx="8"/>
+<rect class="k" x="312" y="184" width="40" height="40" rx="8"/>
+<rect class="k" x="360" y="184" width="40" height="40" rx="8"/>
+<rect class="w" x="408" y="184" width="40" height="40" rx="8"/>
+<rect class="k" x="24" y="232" width="40" height="40" rx="8"/>
+<rect class="k" x="72" y="232" width="40" height="40" rx="8"/>
+<rect class="k" x="120" y="232" width="184" height="40" rx="8"/>
+<rect class="k" x="312" y="232" width="40" height="40" rx="8"/>
+<rect class="k" x="360" y="232" width="40" height="40" rx="8"/>
+<rect class="k" x="408" y="232" width="40" height="40" rx="8"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Tecla</h1>
+<p class="tag">Escuro, compacto, com os atalhos à vista.</p>
+</div>
+</div>
+</body>
+</html>

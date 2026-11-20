@@ -1,0 +1,45 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Aquarela</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .m { fill:var(--orb-mint); } .p { fill:var(--orb-peach); } .l { fill:var(--orb-lavender); } .s { fill:var(--orb-sky); } .k { fill:var(--primary); } .r { stroke:var(--line-strong); stroke-width:1; }
+  .words { position:absolute; left:var(--space-7); bottom:var(--space-7); max-width:440px; }
+  .name { margin:0; font-family:var(--font-display); font-size:96px; line-height:.92; font-weight:300; letter-spacing:-0.02em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      orb-mint (disco de 240) · orb-peach (112) · orb-lavender (112, sangrando) · orb-sky (80) · primary: uma pílula de 112x40
+  arrangement um disco grande com satélites que se tocam, como manchas de aquarela, e a pílula de tinta embaixo — "a cor é atmosfera", "o botão é tinta"
+  pattern     filetes (linha "editorial, serif"): três filetes de 1px em line-strong cruzando os discos em passo de 56, como pauta de página
+  scales      pílula de altura 40 com raio de meia altura (20); discos em raios múltiplos de space-2 (8); filetes em passo de 56
+-->
+<circle class="m" cx="352" cy="120" r="120"/>
+<circle class="s" cx="208" cy="64" r="40"/>
+<circle class="p" cx="208" cy="216" r="56"/>
+<circle class="l" cx="456" cy="240" r="56"/>
+<rect class="k" x="280" y="236" width="112" height="40" rx="20"/>
+<line class="r" x1="136" y1="88" x2="480" y2="88"/>
+<line class="r" x1="136" y1="144" x2="480" y2="144"/>
+<line class="r" x1="136" y1="200" x2="480" y2="200"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Aquarela</h1>
+<p class="tag">Serifa leve sobre manchas de cor pastel.</p>
+</div>
+</div>
+</body>
+</html>

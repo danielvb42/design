@@ -15,8 +15,8 @@ Cada pasta corresponde à pasta `project/` do artefato.
 | Crepúsculo | [crepusculo](crepusculo) | [abrir](https://claude.ai/artifact/6RkA9WpgrRLk2Qp3opLqoU) | ✅ enviada |
 | Esquadro | [esquadro](esquadro) | [abrir](https://claude.ai/artifact/QHjGZQpdBJX8fqEeiuyewY) | ✅ enviada |
 | Papel | [papel](papel) | [abrir](https://claude.ai/artifact/7dMfobE3HyVDkqnoM9UmF8) | ✅ enviada |
-| Tecla | tecla | [abrir](https://claude.ai/artifact/8hFAFNkbsLbbVxcdkcoZQA) | pendente |
-| Aquarela | aquarela | [abrir](https://claude.ai/artifact/CkTkz6wj1qhgfHyDJEXRXu) | pendente |
+| Tecla | [tecla](tecla) | [abrir](https://claude.ai/artifact/8hFAFNkbsLbbVxcdkcoZQA) | ✅ enviada |
+| Aquarela | [aquarela](aquarela) | [abrir](https://claude.ai/artifact/CkTkz6wj1qhgfHyDJEXRXu) | ✅ enviada |
 | Cartaz | cartaz | [abrir](https://claude.ai/artifact/X9FYbkkHeu5bi6ejAvQ8R4) | pendente |
 | Faixas | faixas | [abrir](https://claude.ai/artifact/Ey422JuZLCDK8AD9EtJkNy) | pendente |
 | Quadro | quadro | [abrir](https://claude.ai/artifact/5s5rzfMbYKwzqY8PHwJjG4) | pendente |
