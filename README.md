@@ -11,8 +11,8 @@ Cada pasta corresponde à pasta `project/` do artefato.
 | Marinho — variação do Violeta | [marinho](marinho) | [abrir](https://claude.ai/artifact/Genk6BkeFW5YsuKgHh6L5o) | ✅ enviada |
 | Prisma | [prisma](prisma) | [abrir](https://claude.ai/artifact/9iu4qjG4oFePDznQmVWK6k) | ✅ enviada |
 | Voltagem | [voltagem](voltagem) | [abrir](https://claude.ai/artifact/3dWdyFx6f5GJ6fszNDFqhn) | ✅ enviada |
-| Cobalto | cobalto | [abrir](https://claude.ai/artifact/8e2ZzUSJPyLTwS1pigeYpJ) | pendente |
-| Crepúsculo | crepusculo | [abrir](https://claude.ai/artifact/6RkA9WpgrRLk2Qp3opLqoU) | pendente |
+| Cobalto | [cobalto](cobalto) | [abrir](https://claude.ai/artifact/8e2ZzUSJPyLTwS1pigeYpJ) | ✅ enviada |
+| Crepúsculo | [crepusculo](crepusculo) | [abrir](https://claude.ai/artifact/6RkA9WpgrRLk2Qp3opLqoU) | ✅ enviada |
 | Esquadro | esquadro | [abrir](https://claude.ai/artifact/QHjGZQpdBJX8fqEeiuyewY) | pendente |
 | Papel | papel | [abrir](https://claude.ai/artifact/7dMfobE3HyVDkqnoM9UmF8) | pendente |
 | Tecla | tecla | [abrir](https://claude.ai/artifact/8hFAFNkbsLbbVxcdkcoZQA) | pendente |

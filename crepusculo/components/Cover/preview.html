@@ -1,0 +1,52 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Crepúsculo</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .i { fill:var(--primary); } .t { fill:var(--teal-deep); } .v { fill:var(--violet); } .h { fill:var(--nav-line); } .tm { fill:var(--teal-mid); }
+  .blk { rx:var(--radius-lg); } .pill { rx:12px; }
+  .words { position:absolute; left:var(--space-7); bottom:var(--space-7); max-width:440px; }
+  .name { margin:0; font-family:var(--font-sans); font-size:72px; line-height:.92; font-weight:540; letter-spacing:-0.02em; color:var(--ink); }
+  .tag { margin:var(--space-4) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      primary (índigo) 464x152 sangrando no topo e à direita · teal-deep 464x72 sangrando à direita
+  arrangement duas faixas desiguais empilhadas, com o branco do fundo entre elas — as "três telas": índigo, branco, verde-petróleo
+  pattern     pílulas (linha "soft, large radii"): 12 pílulas de 24px, duas em violet sobre o índigo — "pílula só sobre o índigo"; as demais em nav-line e teal-mid
+  scales      calha space-5 (16); pílulas de altura space-6 (24) em passo de 48; faixas radius-lg (12); pílulas com raio de meia altura (12)
+-->
+<rect class="i blk" x="16" y="-24" width="488" height="176" rx="12"/>
+<rect class="t blk" x="16" y="168" width="488" height="72" rx="12"/>
+<rect class="h pill" x="40" y="40" width="96" height="24" rx="12"/>
+<rect class="h pill" x="152" y="40" width="64" height="24" rx="12"/>
+<rect class="v pill" x="232" y="40" width="120" height="24" rx="12"/>
+<rect class="h pill" x="368" y="40" width="80" height="24" rx="12"/>
+<rect class="v pill" x="40" y="88" width="64" height="24" rx="12"/>
+<rect class="h pill" x="120" y="88" width="112" height="24" rx="12"/>
+<rect class="h pill" x="248" y="88" width="72" height="24" rx="12"/>
+<rect class="h pill" x="336" y="88" width="104" height="24" rx="12"/>
+<rect class="tm pill" x="40" y="192" width="88" height="24" rx="12"/>
+<rect class="tm pill" x="144" y="192" width="56" height="24" rx="12"/>
+<rect class="tm pill" x="216" y="192" width="128" height="24" rx="12"/>
+<rect class="tm pill" x="360" y="192" width="72" height="24" rx="12"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Crepúsculo</h1>
+<p class="tag">Índigo, branco e uma faixa verde-petróleo.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!-- @dsCard group="Exemplos" height=1327 width=1440 -->
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><title>Dashboard</title></head>
+<body>
+<div class="cr-app">
+<aside class="cr-side"><div class="cr-brand"><span class="cr-mark"></span>Gestão judicial</div>
+<nav class="cr-nav" aria-label="Principal">
+  <a href="#" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg>Painel</a>
+  <a href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg>Acervo</a>
+  <a href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg>Produtividade</a>
+  <a href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>Metas</a>
+  <a href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Pautas</a>
+</nav></aside>
+<main class="cr-main">
+<div class="cr-head"><div><p class="cr-eyebrow">Visão geral</p><h1 class="cr-page-title">Painel da unidade</h1></div>
+<div class="cr-actions"><button class="cr-btn cr-btn-secondary">Exportar</button><button class="cr-btn cr-btn-primary">Novo relatório</button></div></div>
+<div class="cr-row"><div class="cr-tabs" role="tablist" style="flex:1"><button class="cr-tab" role="tab" aria-selected="true">Acervo</button><button class="cr-tab" role="tab" aria-selected="false">Produtividade</button><button class="cr-tab" role="tab" aria-selected="false">Metas</button></div>
+<div class="cr-chips"><button class="cr-chip" aria-pressed="true">Últimos 12 meses</button><button class="cr-chip" aria-pressed="false">1º grau</button></div></div>
+<div class="cr-grid4">
+<div class="cr-panel"><div class="cr-block"><div class="cr-kpi"><span class="cr-kpi-value">1.248</span><span class="cr-kpi-label">em tramitação</span><span class="cr-delta up">▲ 3,2% no mês</span></div></div></div>
+<div class="cr-panel"><div class="cr-block"><div class="cr-kpi"><span class="cr-kpi-value">312</span><span class="cr-kpi-label">conclusos</span><span class="cr-delta down">▼ 18 a mais que a meta</span></div></div></div>
+<div class="cr-panel"><div class="cr-block"><div class="cr-kpi"><span class="cr-kpi-value">96</span><span class="cr-kpi-label">baixados no mês</span><span class="cr-delta up">▲ 11 a mais que em outubro</span></div></div></div>
+<div class="cr-panel"><div class="cr-block"><div class="cr-kpi"><span class="cr-kpi-value">87%</span><span class="cr-kpi-label">da meta cumprida</span><span class="cr-delta up">▲ 4 pontos</span></div></div></div>
+</div>
+
+<div class="cr-grid2">
+<div class="cr-panel"><div class="cr-block"><p class="cr-eyebrow">Por unidade</p><h3 class="cr-title">Conclusos por unidade</h3>
+<div class="cr-bars">
+  <div class="cr-bar-row"><span>1ª Vara Cível</span><div class="cr-bar-track"><span class="cr-bar-fill" style="width:92%"></span></div><b>124</b></div>
+  <div class="cr-bar-row"><span>2ª Vara Cível</span><div class="cr-bar-track"><span class="cr-bar-fill" style="width:73%"></span></div><b>98</b></div>
+  <div class="cr-bar-row"><span>Vara de Família</span><div class="cr-bar-track"><span class="cr-bar-fill" style="width:54%"></span></div><b>73</b></div>
+  <div class="cr-bar-row"><span>Juizado Especial</span><div class="cr-bar-track"><span class="cr-bar-fill" style="width:38%"></span></div><b>51</b></div>
+  <div class="cr-bar-row"><span>Vara Criminal</span><div class="cr-bar-track"><span class="cr-bar-fill" style="width:27%"></span></div><b>36</b></div>
+</div></div></div>
+<div class="cr-panel"><div class="cr-block"><p class="cr-eyebrow">Composição</p><h3 class="cr-title">Situação do acervo</h3>
+<div class="cr-stackbar" aria-hidden="true"><span style="flex:62;background:var(--data-1)"></span><span style="flex:25;background:var(--data-2)"></span><span style="flex:9;background:var(--data-3)"></span><span style="flex:4;background:var(--data-4)"></span></div>
+<table class="cr-table">
+  <tr><td><span class="cr-swatch" style="background:var(--data-1)"></span> Em andamento</td><td class="num">774</td><td class="num muted">62%</td></tr>
+  <tr><td><span class="cr-swatch" style="background:var(--data-2)"></span> Conclusos</td><td class="num">312</td><td class="num muted">25%</td></tr>
+  <tr><td><span class="cr-swatch" style="background:var(--data-3)"></span> Suspensos</td><td class="num">112</td><td class="num muted">9%</td></tr>
+  <tr><td><span class="cr-swatch" style="background:var(--data-4)"></span> Arquivados</td><td class="num">50</td><td class="num muted">4%</td></tr>
+</table></div></div>
+</div>
+<div class="cr-panel"><div class="cr-block"><p class="cr-eyebrow">Detalhe</p><h3 class="cr-title">Unidades</h3>
+<table class="cr-table">
+  <thead><tr><th>Unidade</th><th class="num">Acervo</th><th class="num">Conclusos</th><th class="num">Tempo médio</th><th>Situação</th></tr></thead>
+  <tbody>
+  <tr><td>1ª Vara Cível</td><td class="num">412</td><td class="num">124</td><td class="num muted">38 dias</td><td><span class="cr-badge ok"><span class="cr-dot"></span>No prazo</span></td></tr>
+  <tr><td>2ª Vara Cível</td><td class="num">356</td><td class="num">98</td><td class="num muted">52 dias</td><td><span class="cr-badge "><span class="cr-dot"></span>Atenção</span></td></tr>
+  <tr><td>Vara de Família</td><td class="num">231</td><td class="num">73</td><td class="num muted">29 dias</td><td><span class="cr-badge ok"><span class="cr-dot"></span>No prazo</span></td></tr>
+  <tr><td>Juizado Especial</td><td class="num">164</td><td class="num">51</td><td class="num muted">91 dias</td><td><span class="cr-badge bad"><span class="cr-dot"></span>Atrasado</span></td></tr>
+  </tbody>
+</table></div></div>
+<div class="cr-band"><p class="cr-band-title">Fechamento de outubro: 96 processos baixados</p><button class="cr-btn cr-band-btn">Ver fechamento</button></div>
+</main></div>
+</body>
+</html>
