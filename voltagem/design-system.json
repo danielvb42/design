@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "assetGroups": {},
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-11-16T23:03:56Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [],
+  "lastChange": {
+    "at": "2026-11-16T23:03:56Z",
+    "by": "Daniel",
+    "note": "Sistema criado a partir de DESIGN-clickhouse.md, adaptado para painéis",
+    "via": "Claude (chat)"
+  },
+  "layout": "files",
+  "libraries": [],
+  "namespace": "Voltagem",
+  "sections": {},
+  "title": "Voltagem — linguagem de design"
+}

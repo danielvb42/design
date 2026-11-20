@@ -1,0 +1,56 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Voltagem</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .y { fill:var(--primary); } .s { fill:var(--surface); } .r { fill:var(--surface-raised); } .m { fill:var(--ink-muted); } .q { fill:var(--line-strong); }
+  .blk { rx:var(--radius-lg); } .bar { rx:var(--radius-xs); }
+  .words { position:absolute; left:var(--space-6); bottom:var(--space-6); max-width:440px; }
+  .name { margin:0; font-family:var(--font-sans); font-size:88px; line-height:.92; font-weight:700; letter-spacing:-0.035em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      primary (amarelo) 264x176 sangrando no topo e à direita · surface 184x160 · surface-raised 184x72 · primary 120x72
+  arrangement uma laje amarela com a "janela de código" ao lado; calhas de space-4 (16), tudo alinhado à mesma grade
+  pattern     barrinhas (linha "precise, technical, mono"): 14 linhas de código de 8px em passo de space-4, uma em primary — "mostre o dado técnico como ele é"
+  scales      calhas e passo space-4 (16); altura das barras space-2 (8); cantos radius-lg (12) nos blocos e radius-xs (4) nas barras
+-->
+<rect class="y blk" x="216" y="-24" width="288" height="200" rx="12"/>
+<rect class="s blk" x="16" y="16" width="184" height="160" rx="12"/>
+<rect class="r blk" x="16" y="192" width="184" height="72" rx="12"/>
+<rect class="y blk" x="216" y="192" width="120" height="72" rx="12"/>
+<rect class="m bar" x="32" y="40" width="96" height="8" rx="4"/>
+<rect class="m bar" x="32" y="56" width="136" height="8" rx="4"/>
+<rect class="y bar" x="32" y="72" width="72" height="8" rx="4"/>
+<rect class="m bar" x="32" y="88" width="120" height="8" rx="4"/>
+<rect class="m bar" x="32" y="104" width="104" height="8" rx="4"/>
+<rect class="m bar" x="32" y="120" width="56" height="8" rx="4"/>
+<rect class="m bar" x="32" y="136" width="128" height="8" rx="4"/>
+<rect class="m bar" x="32" y="212" width="120" height="8" rx="4"/>
+<rect class="m bar" x="32" y="228" width="80" height="8" rx="4"/>
+<rect class="m bar" x="32" y="244" width="144" height="8" rx="4"/>
+<rect class="q bar" x="352" y="200" width="104" height="8" rx="4"/>
+<rect class="q bar" x="352" y="216" width="72" height="8" rx="4"/>
+<rect class="q bar" x="352" y="232" width="88" height="8" rx="4"/>
+<rect class="q bar" x="352" y="248" width="56" height="8" rx="4"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Voltagem</h1>
+<p class="tag">Quase preto, e um único amarelo elétrico.</p>
+</div>
+</div>
+</body>
+</html>

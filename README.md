@@ -9,8 +9,8 @@ Cada pasta corresponde à pasta `project/` do artefato.
 | Violeta | [violeta](violeta) | [abrir](https://claude.ai/artifact/RZw9ucNEgGqAZg5YDZqHfA) | ✅ enviada |
 | Grafite | [grafite](grafite) | [abrir](https://claude.ai/artifact/FDUVgTSiY4Erb48GLBnaXK) | ✅ enviada |
 | Marinho — variação do Violeta | [marinho](marinho) | [abrir](https://claude.ai/artifact/Genk6BkeFW5YsuKgHh6L5o) | ✅ enviada |
-| Prisma | prisma | [abrir](https://claude.ai/artifact/9iu4qjG4oFePDznQmVWK6k) | pendente |
-| Voltagem | voltagem | [abrir](https://claude.ai/artifact/3dWdyFx6f5GJ6fszNDFqhn) | pendente |
+| Prisma | [prisma](prisma) | [abrir](https://claude.ai/artifact/9iu4qjG4oFePDznQmVWK6k) | ✅ enviada |
+| Voltagem | [voltagem](voltagem) | [abrir](https://claude.ai/artifact/3dWdyFx6f5GJ6fszNDFqhn) | ✅ enviada |
 | Cobalto | cobalto | [abrir](https://claude.ai/artifact/8e2ZzUSJPyLTwS1pigeYpJ) | pendente |
 | Crepúsculo | crepusculo | [abrir](https://claude.ai/artifact/6RkA9WpgrRLk2Qp3opLqoU) | pendente |
 | Esquadro | esquadro | [abrir](https://claude.ai/artifact/QHjGZQpdBJX8fqEeiuyewY) | pendente |
