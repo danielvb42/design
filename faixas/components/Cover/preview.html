@@ -1,0 +1,54 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Faixas</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .k { fill:var(--ink); } .b { fill:var(--primary); } .o { fill:var(--action-warm); } .g { fill:var(--gold-mid); } .d { fill:var(--ink-subtle); }
+  .words { position:absolute; left:var(--space-6); bottom:var(--space-6); max-width:440px; }
+  .name { margin:0; font-family:var(--font-sans); font-size:120px; line-height:.92; font-weight:300; letter-spacing:-0.01em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      ink 464x80 sangrando no topo e à direita · primary 464x120 sangrando à direita · action-warm: pílula de 136x40 · gold-mid: pílula de 72x40
+  arrangement tira de faixas desiguais de largura total, sem raio, separadas pelo fundo — "a página é feita de faixas"
+  pattern     discos (linha "soft, friendly": pílulas e pontos de paginação): 13 pontos de 8px em ink-subtle em passo de space-4 (16)
+  scales      calhas space-4 (16); faixas radius-none (0); pílulas com raio de meia altura (20); pontos em passo space-4
+-->
+<rect class="k" x="16" y="-24" width="488" height="104" rx="0"/>
+<rect class="b" x="16" y="96" width="488" height="120" rx="0"/>
+<rect class="o" x="16" y="232" width="136" height="40" rx="20"/>
+<rect class="g" x="168" y="232" width="72" height="40" rx="20"/>
+<circle class="d" cx="272" cy="252" r="4"/>
+<circle class="d" cx="288" cy="252" r="4"/>
+<circle class="d" cx="304" cy="252" r="4"/>
+<circle class="d" cx="320" cy="252" r="4"/>
+<circle class="d" cx="336" cy="252" r="4"/>
+<circle class="d" cx="352" cy="252" r="4"/>
+<circle class="d" cx="368" cy="252" r="4"/>
+<circle class="d" cx="384" cy="252" r="4"/>
+<circle class="d" cx="400" cy="252" r="4"/>
+<circle class="d" cx="416" cy="252" r="4"/>
+<circle class="d" cx="432" cy="252" r="4"/>
+<circle class="d" cx="448" cy="252" r="4"/>
+<circle class="d" cx="464" cy="252" r="4"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Faixas</h1>
+<p class="tag">Faixas em preto, branco e azul; títulos leves.</p>
+</div>
+</div>
+</body>
+</html>
