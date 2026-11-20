@@ -13,8 +13,8 @@ Cada pasta corresponde à pasta `project/` do artefato.
 | Voltagem | [voltagem](voltagem) | [abrir](https://claude.ai/artifact/3dWdyFx6f5GJ6fszNDFqhn) | ✅ enviada |
 | Cobalto | [cobalto](cobalto) | [abrir](https://claude.ai/artifact/8e2ZzUSJPyLTwS1pigeYpJ) | ✅ enviada |
 | Crepúsculo | [crepusculo](crepusculo) | [abrir](https://claude.ai/artifact/6RkA9WpgrRLk2Qp3opLqoU) | ✅ enviada |
-| Esquadro | esquadro | [abrir](https://claude.ai/artifact/QHjGZQpdBJX8fqEeiuyewY) | pendente |
-| Papel | papel | [abrir](https://claude.ai/artifact/7dMfobE3HyVDkqnoM9UmF8) | pendente |
+| Esquadro | [esquadro](esquadro) | [abrir](https://claude.ai/artifact/QHjGZQpdBJX8fqEeiuyewY) | ✅ enviada |
+| Papel | [papel](papel) | [abrir](https://claude.ai/artifact/7dMfobE3HyVDkqnoM9UmF8) | ✅ enviada |
 | Tecla | tecla | [abrir](https://claude.ai/artifact/8hFAFNkbsLbbVxcdkcoZQA) | pendente |
 | Aquarela | aquarela | [abrir](https://claude.ai/artifact/CkTkz6wj1qhgfHyDJEXRXu) | pendente |
 | Cartaz | cartaz | [abrir](https://claude.ai/artifact/X9FYbkkHeu5bi6ejAvQ8R4) | pendente |

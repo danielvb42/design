@@ -1,0 +1,46 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Papel</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .o { fill:var(--primary); } .k { fill:var(--ink); } .z { fill:var(--data-3); } .w { fill:var(--surface); stroke:var(--line); stroke-width:1; } .r { stroke:var(--line-strong); stroke-width:1; }
+  .blk { rx:var(--radius-lg); }
+  .words { position:absolute; left:var(--space-7); bottom:var(--space-7); max-width:440px; }
+  .name { margin:0; font-family:var(--font-sans); font-size:120px; line-height:.92; font-weight:400; letter-spacing:-0.03em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      primary (laranja) 184x176 sangrando no topo e à direita · ink 112x160 · surface (branco com line) 264x88 sangrando no topo · data-3 (azul pastel) 136x72
+  arrangement pilha escalonada de quatro cards em calhas de space-4 (16), o laranja no canto — raro na interface, mas é a cor que identifica o sistema
+  pattern     filetes (linha "editorial, borders not shadows"): quatro filetes de 1px em line-strong, em passo de space-4, como linhas de texto — "linhas finas, zero sombra"
+  scales      calhas e passo dos filetes space-4 (16); cantos radius-lg (12)
+-->
+<rect class="w blk" x="16" y="-24" width="264" height="112" rx="12"/>
+<rect class="o blk" x="296" y="-24" width="208" height="200" rx="12"/>
+<rect class="z blk" x="16" y="104" width="136" height="72" rx="12"/>
+<rect class="k blk" x="168" y="104" width="112" height="160" rx="12"/>
+<line class="r" x1="296" y1="208" x2="464" y2="208"/>
+<line class="r" x1="296" y1="224" x2="464" y2="224"/>
+<line class="r" x1="296" y1="240" x2="464" y2="240"/>
+<line class="r" x1="296" y1="256" x2="464" y2="256"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Papel</h1>
+<p class="tag">Creme, tinta quente e um laranja raro.</p>
+</div>
+</div>
+</body>
+</html>

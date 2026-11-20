@@ -1,0 +1,55 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Esquadro</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .b { fill:var(--primary); } .d { fill:var(--primary-pressed); } .k { fill:var(--ink); } .l { fill:var(--layer-strong); } .dot { fill:var(--ink-subtle); }
+  .words { position:absolute; left:var(--space-6); bottom:var(--space-6); max-width:440px; }
+  .name { margin:0; font-family:var(--font-sans); font-size:88px; line-height:.92; font-weight:300; letter-spacing:-0.01em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      primary 192x192 · ink 96x96 · primary-pressed 96x96 · layer-strong 144x96, todos de canto reto (radius-none)
+  arrangement grade modular rente, sem calhas, em módulos de space-7 (48) — "tudo em ângulo reto", "densidade é virtude"
+  pattern     grade de pontos (linha "precise, technical, a 4px grid"): 14 pontos em ink-subtle nos cruzamentos do módulo de 48
+  scales      módulo space-7 (48); blocos em múltiplos de 2 e 4 módulos; raio radius-none (0)
+-->
+<rect class="b" x="192" y="0" width="192" height="192" rx="0"/>
+<rect class="k" x="384" y="0" width="96" height="96" rx="0"/>
+<rect class="d" x="384" y="96" width="96" height="96" rx="0"/>
+<rect class="l" x="48" y="192" width="144" height="96" rx="0"/>
+<circle class="dot" cx="48" cy="48" r="2"/>
+<circle class="dot" cx="48" cy="96" r="2"/>
+<circle class="dot" cx="48" cy="144" r="2"/>
+<circle class="dot" cx="96" cy="48" r="2"/>
+<circle class="dot" cx="96" cy="96" r="2"/>
+<circle class="dot" cx="96" cy="144" r="2"/>
+<circle class="dot" cx="144" cy="48" r="2"/>
+<circle class="dot" cx="144" cy="96" r="2"/>
+<circle class="dot" cx="144" cy="144" r="2"/>
+<circle class="dot" cx="240" cy="240" r="2"/>
+<circle class="dot" cx="288" cy="240" r="2"/>
+<circle class="dot" cx="336" cy="240" r="2"/>
+<circle class="dot" cx="384" cy="240" r="2"/>
+<circle class="dot" cx="432" cy="240" r="2"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Esquadro</h1>
+<p class="tag">Cantos retos, títulos leves, um só azul.</p>
+</div>
+</div>
+</body>
+</html>
