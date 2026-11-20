@@ -1,0 +1,57 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Marinho</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:520px; height:288px; }
+  .brand { fill:var(--primary); }
+  .mid { fill:var(--navy-500); }
+  .tint { fill:var(--navy-100); }
+  .deep { fill:var(--ink); }
+  .ok { fill:var(--success); }
+  .blk { rx:var(--radius-lg); }
+  .bar { fill:var(--navy-300); rx:4px; }
+  .words { position:absolute; left:var(--space-6); bottom:var(--space-6); max-width:440px; }
+  .name { margin:0; font-size:104px; line-height:.92; font-weight:700; letter-spacing:-.03em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 4px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 520 288" width="520" height="288">
+<!--
+  blocks      primary 160x264 slab bled off the top (the brand) · navy-500 136x56 · navy-100 tint 136x112 bled off the top · ink 296x168 bleeding off the right · success 48x24 pill once (it only means "no ritmo")
+  arrangement one tall navy slab with satellites, bottoms on one line space-5 above the edge, space-4 gutters
+  pattern     thin pills from the "Gasto no mes" bar chart and "radius-pill" note: 9 bars 8px wide at a space-5 pitch, navy-300, rising from the ink block's floor
+  scales      gutters space-4 (16); pitch space-5 (24); corners radius-lg (24); bar and badge pills radius-pill (half the short side)
+-->
+<rect class="brand blk" x="16" y="-24" width="160" height="288" rx="24"/>
+<rect class="tint blk" x="192" y="-24" width="136" height="112" rx="24"/>
+<rect class="mid blk" x="344" y="32" width="136" height="56" rx="24"/>
+<rect class="deep blk" x="192" y="104" width="328" height="160" rx="24"/>
+<rect class="ok" x="96" y="216" width="56" height="24" rx="12"/>
+<rect class="bar" x="232" y="144" width="8" height="96" rx="4"/>
+<rect class="bar" x="256" y="176" width="8" height="64" rx="4"/>
+<rect class="bar" x="280" y="120" width="8" height="120" rx="4"/>
+<rect class="bar" x="304" y="160" width="8" height="80" rx="4"/>
+<rect class="bar" x="328" y="104" width="8" height="136" rx="4"/>
+<rect class="bar" x="352" y="192" width="8" height="48" rx="4"/>
+<rect class="bar" x="376" y="136" width="8" height="104" rx="4"/>
+<rect class="bar" x="400" y="168" width="8" height="72" rx="4"/>
+<rect class="bar" x="424" y="128" width="8" height="112" rx="4"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Marinho</h1>
+<p class="tag">Uma cor manda, o número é o herói.</p>
+</div>
+</div>
+</body>
+</html>

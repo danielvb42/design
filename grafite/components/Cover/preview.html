@@ -1,0 +1,48 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Grafite</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:520px; height:288px; }
+  .graf { fill:var(--primary); } .soft { fill:var(--primary-soft); }
+  .d6 { fill:var(--data-6); } .d1 { fill:var(--data-1); } .d2 { fill:var(--data-2); } .d4 { fill:var(--data-4); }
+  .rule { stroke:var(--line-strong); stroke-width:1; }
+  .blk { rx:var(--radius-md); } .sw { rx:var(--radius-xs); }
+  .words { position:absolute; left:var(--space-6); bottom:var(--space-6); max-width:440px; }
+  .name { margin:0; font-size:104px; line-height:.92; font-weight:300; letter-spacing:-.03em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 4px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 520 288" width="520" height="288">
+<!--
+  blocks      primary (graphite) 200x264 slab bled off the top · primary-soft 264x96 bled right · data-6 ocean 120x120 · data-1 coral 120x40 · data-2/data-4 small swatches once each
+  arrangement one graphite slab with a stacked-funnel column beside it, bottoms on one line space-5 above the edge, space-4 gutters
+  pattern     hairline rules from "Linhas, não sombras": four line-strong rules at a space-6 pitch crossing the soft block, like the chart grid
+  scales      gutters space-4 (16); pitch space-6 (32); corners radius-md (6), swatches radius-xs (2)
+-->
+<rect class="graf blk" x="16" y="-24" width="200" height="288" rx="6"/>
+<rect class="soft blk" x="232" y="-24" width="304" height="120" rx="6"/>
+<line class="rule" x1="232" x2="520" y1="24" y2="24"/><line class="rule" x1="232" x2="520" y1="56" y2="56"/><line class="rule" x1="232" x2="520" y1="88" y2="88"/>
+<rect class="d6 blk" x="232" y="112" width="152" height="152" rx="6"/>
+<rect class="d1 blk" x="400" y="112" width="80" height="56" rx="6"/>
+<rect class="d2 sw" x="400" y="184" width="36" height="32" rx="2"/>
+<rect class="d4 sw" x="444" y="184" width="36" height="32" rx="2"/>
+<rect class="graf sw" x="400" y="232" width="80" height="8" rx="2"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Grafite</h1>
+<p class="tag">A interface em grafite, a cor só nos dados.</p>
+</div>
+</div>
+</body>
+</html>

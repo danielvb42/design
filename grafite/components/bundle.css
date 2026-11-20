@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
+body { margin: 0; font-family: var(--font-sans); background: var(--bg); color: var(--ink); -webkit-font-smoothing: antialiased; }
+.gf-stage { display: flex; flex-wrap: wrap; gap: var(--space-5); align-items: center; padding: var(--space-5); }
+
+/* Button */
+.gf-btn { font: inherit; font-size: 16px; font-weight: 600; height: 44px; padding: 0 var(--space-5); border-radius: var(--radius-sm); border: 1px solid transparent; cursor: pointer; display: inline-flex; align-items: center; gap: var(--space-2); }
+.gf-btn-primary { background: var(--primary); color: var(--on-primary); }
+.gf-btn-primary:hover { background: var(--primary-hover); }
+.gf-btn-secondary { background: var(--surface); color: var(--ink); border-color: var(--line-strong); }
+.gf-btn-secondary:hover { background: var(--primary-soft); }
+.gf-btn-text { background: transparent; color: var(--accent); padding: 0 var(--space-2); }
+.gf-btn:focus-visible, .gf-tab:focus-visible, .gf-chip:focus-visible, .gf-nav a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.gf-caret { width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 6px solid currentColor; }
+
+/* Navigation */
+.gf-nav { width: 240px; display: grid; gap: var(--space-1); background: var(--surface); padding: var(--space-4); }
+.gf-nav a { display: flex; align-items: center; gap: var(--space-3); height: 48px; padding: 0 var(--space-4); border-radius: var(--radius-sm); color: var(--ink-muted); text-decoration: none; font-size: 17px; }
+.gf-nav a:hover { color: var(--ink); background: var(--bg); }
+.gf-nav a[aria-current="page"] { background: var(--primary-soft); color: var(--ink); font-weight: 600; }
+.gf-nav svg, .gf-ico { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+
+/* Tabs */
+.gf-tabs { display: flex; gap: var(--space-6); border-bottom: 1px solid var(--line); padding: 0 var(--space-5); }
+.gf-tab { font: inherit; font-size: 16px; background: none; border: 0; padding: var(--space-4) var(--space-2); color: var(--ink-muted); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.gf-tab[aria-selected="true"] { color: var(--ink); font-weight: 700; border-bottom-color: var(--primary); }
+.gf-select { display: inline-flex; align-items: center; gap: var(--space-2); color: var(--ink-muted); font-size: 15px; }
+
+/* Chips */
+.gf-chips { display: flex; gap: var(--space-2); flex-wrap: wrap; }
+.gf-chip { font: inherit; font-size: 15px; height: 32px; padding: 0 var(--space-3); border: 1px solid var(--line-strong); border-radius: var(--radius-sm); background: var(--surface); color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; gap: var(--space-2); }
+.gf-chip[aria-pressed="true"] { background: var(--primary-soft); border-color: var(--primary-soft); font-weight: 600; }
+.gf-swatch { width: 14px; height: 14px; border-radius: var(--radius-xs); flex: none; }
+
+/* Panel */
+.gf-panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-md); box-shadow: var(--shadow-panel); }
+.gf-block { padding: var(--space-6) var(--space-7); }
+.gf-block + .gf-block { border-top: 1px solid var(--line); }
+.gf-title { margin: 0 0 var(--space-4); font-size: 20px; line-height: 28px; font-weight: 700; color: var(--ink); }
+
+/* KPI */
+.gf-kpi { display: inline-flex; align-items: baseline; gap: var(--space-3); margin-right: var(--space-7); }
+.gf-kpi-value { font-size: 44px; line-height: 52px; font-weight: 300; color: var(--ink); font-variant-numeric: tabular-nums; }
+.gf-kpi-label { font-size: 15px; color: var(--ink-muted); }
+.gf-kpi-stack { display: inline-grid; gap: 2px; }
+.gf-kpi-stack .gf-kpi-value { font-size: 40px; line-height: 48px; }
+
+/* Funnel */
+.gf-funnel-bar { display: flex; height: 8px; gap: 2px; margin: var(--space-4) 0 var(--space-5); }
+.gf-funnel-bar span { border-radius: var(--radius-xs); }
+.gf-table { width: 100%; border-collapse: collapse; font-size: 16px; font-variant-numeric: tabular-nums; }
+.gf-table td { padding: 10px 0; color: var(--ink); white-space: nowrap; }
+.gf-table td:first-child { padding-right: var(--space-5); }
+.gf-table td.num { text-align: right; padding-right: var(--space-6); }
+.gf-table td.muted { color: var(--ink-muted); text-align: right; }
+.gf-table td .gf-swatch { display: inline-block; vertical-align: -2px; margin-right: var(--space-3); }
+
+/* Tooltip */
+.gf-tooltip { display: inline-block; background: var(--primary); color: var(--on-primary); font-size: 13px; line-height: 18px; padding: 4px 10px; border-radius: var(--radius-sm); box-shadow: var(--shadow-pop); }
+
+/* Chart helpers */
+.gf-axis { font: 12px var(--font-sans); fill: var(--ink-muted); }
+.gf-grid { stroke: var(--line); stroke-width: 1; }
+.gf-won { stroke: var(--success); fill: none; stroke-width: 2; }
+.gf-lost { stroke: var(--danger); fill: none; stroke-width: 2; }
+.gf-dot-won { fill: var(--success); } .gf-dot-lost { fill: var(--danger); }

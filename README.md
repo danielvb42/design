@@ -7,8 +7,8 @@ Cada pasta corresponde à pasta `project/` do artefato.
 | Linguagem | Pasta | Artefato | Situação |
 |---|---|---|---|
 | Violeta | [violeta](violeta) | [abrir](https://claude.ai/artifact/RZw9ucNEgGqAZg5YDZqHfA) | ✅ enviada |
-| Grafite | grafite | [abrir](https://claude.ai/artifact/FDUVgTSiY4Erb48GLBnaXK) | pendente |
-| Marinho — variação do Violeta | marinho | [abrir](https://claude.ai/artifact/Genk6BkeFW5YsuKgHh6L5o) | pendente |
+| Grafite | [grafite](grafite) | [abrir](https://claude.ai/artifact/FDUVgTSiY4Erb48GLBnaXK) | ✅ enviada |
+| Marinho — variação do Violeta | [marinho](marinho) | [abrir](https://claude.ai/artifact/Genk6BkeFW5YsuKgHh6L5o) | ✅ enviada |
 | Prisma | prisma | [abrir](https://claude.ai/artifact/9iu4qjG4oFePDznQmVWK6k) | pendente |
 | Voltagem | voltagem | [abrir](https://claude.ai/artifact/3dWdyFx6f5GJ6fszNDFqhn) | pendente |
 | Cobalto | cobalto | [abrir](https://claude.ai/artifact/8e2ZzUSJPyLTwS1pigeYpJ) | pendente |
